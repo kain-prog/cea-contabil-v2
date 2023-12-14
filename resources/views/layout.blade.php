@@ -2,13 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {{-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> --}}
-
-
-        {{-- <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"> --}}
-        {{-- <link rel="stylesheet" href="assets/css/animate.css"> --}}
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <title>CeA - Contábil</title>
@@ -21,9 +15,12 @@
         <x-pre-header />
         <x-header />
         <x-carousel-banner />
+        <x-about-section />
+        <x-infos />
+        <x-services-section />
 
 
 
-
+        <script src="{{ asset('assets/js/script.js') }}"></script>
     </body>
 </html>
