@@ -1,3 +1,20 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const handleCollapse = document.getElementById('handle-collapse');
+    const navbar = document.getElementById('navbar-default');
+
+    handleCollapse.addEventListener('click', function(event) {
+        navbar.classList.toggle('hidden');
+        event.stopPropagation();
+    });
+
+    document.addEventListener('click', function() {
+        navbar.classList.add('hidden');
+    });
+
+    navbar.addEventListener('click', function(event) {
+        event.stopPropagation();
+    });
+});
 function counter() {
     var sectionCounter = document.querySelector('#section-counter');
     var numberElements = sectionCounter.querySelectorAll('.number');

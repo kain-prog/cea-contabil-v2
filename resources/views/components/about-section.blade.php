@@ -1,4 +1,4 @@
-<div id="about" class="bg-gray-100">
+<section id="about" class="bg-gray-100 py-8">
 
     <div class="flex flex-col m-auto px-4 xl:max-w-6xl lg:max-w-4xl md:max-w-2xl columns-1 sm:max-w-lg gap-12 lg:flex-row items-center">
         <div class="h-full z-20">
@@ -8,7 +8,7 @@
         <div class="desc relative pb-12 xl:max-w-md lg:max-w-md lg:pt-11">
             <h3 class="mb-3 text-xs font-semibold text-orange-400 relative">BEM VINDO À CEA CONTÁBIL</h3>
 
-            <h2 class="z-20 text-3xl leading-normal font-bold mb-9">Somos a Melhor Agência de Contabilidade</h2>
+            <h2 class="z-20 text-3xl leading-normal font-bold mb-9 text-gray-700">Somos a Melhor Agência de Contabilidade</h2>
 
             <p class="text-gray-500 mb-7">Muito mais do que um escritório de Contabilidade, auxiliamos 
             você a economizar tempo para focar nas atividades chaves do seu 
@@ -22,4 +22,4 @@
         </div>
     </div>
    
-</div>
+</section>

@@ -1,4 +1,4 @@
-<div id="modalFirstService" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+<section id="modalFirstService" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-2xl max-h-full">
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
             <div class="flex items-center justify-between md:py-2 px-4 border-b rounded-t dark:border-gray-600">
@@ -29,11 +29,11 @@
             </div>
 
             <div class="flex items-center justify-end p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
-                <a href="mailto:ceacontabill@gmail.com?subject=Serviço Legalização e Abertura de Empresas&body=Olá!! Vim pelo site e gostaria de saber mais sobre o serviço de Legalização e Abertura de Empresas." data-modal-hide="modalFirstService" class="text-white bg-sky-600 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a target="_blank" href="mailto:ceacontabill@gmail.com?subject=Serviço Legalização e Abertura de Empresas&body=Olá!! Vim pelo site e gostaria de saber mais sobre o serviço de Legalização e Abertura de Empresas." data-modal-hide="modalFirstService" class="text-white bg-sky-600 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     <i class="fa-regular fa-paper-plane mr-1"></i>
                     E-mail
                 </a>
-                <a href="https://wa.me/+5521966236818?text=Olá!! Vim pelo site e gostaria de saber mais sobre o serviço de Legalização e Abertura de Empresas." data-modal-hide="modalFirstService" class="ms-3 text-white bg-green-500 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                <a target="_blank" href="https://wa.me/+5521966236818?text=Olá!! Vim pelo site e gostaria de saber mais sobre o serviço de Legalização e Abertura de Empresas." data-modal-hide="modalFirstService" class="ms-3 text-white bg-green-500 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
                     <i class="fa-brands fa-whatsapp mr-1"></i>
                     Whatsapp
                 </a>
@@ -41,4 +41,4 @@
             
         </div>
     </div>
-</div>
+</section>
