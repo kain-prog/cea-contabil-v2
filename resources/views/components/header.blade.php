@@ -5,7 +5,7 @@
         </a>
     </div>
 
-    <div id="handle-collapse" class="flex items-center cursor-pointer md:hidden" data-collapse-toggle="navbar-default" aria-controls="navbar-default" aria-expanded="false">
+    <div id="handle-collapse" class="flex items-center cursor-pointer md:hidden">
         <button  type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 focus:outline-none focus:ring-2 focus:ring-transparent dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-transparent" >
             <span class="sr-only">Open main menu</span>
             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -15,7 +15,7 @@
         <span class="select-none">MENU</span>
     </div>
 
-    <div id="navbar-default" class="hidden w-full h-full block md:flex navbar w-full flex transition-all duration:200">
+    <div id="navbar" class="w-full h-full navbar w-full flex transition-all duration-200">
         <ul class="menu block md:flex items-center m-auto md:justify-evenly md:w-full md:h-full">
 
             @if(Request::is('contact'))

@@ -1,20 +1,61 @@
-document.addEventListener('DOMContentLoaded', function() {
+// HEADER
+
+function toggleNavbarCollapse() {
     const handleCollapse = document.getElementById('handle-collapse');
-    const navbar = document.getElementById('navbar-default');
+    const navbar = document.getElementById('navbar');
 
-    handleCollapse.addEventListener('click', function(event) {
-        navbar.classList.toggle('hidden');
-        event.stopPropagation();
+    handleCollapse.addEventListener('click', function() {
+        if (navbar.classList.contains('collapsed')) {
+            navbar.classList.remove('collapsed');
+        } else {
+            navbar.classList.add('collapsed');
+        }
     });
+}
 
-    document.addEventListener('click', function() {
-        navbar.classList.add('hidden');
-    });
+toggleNavbarCollapse();
 
-    navbar.addEventListener('click', function(event) {
-        event.stopPropagation();
+function handleMenuClick() {
+    const menuLinks = document.querySelectorAll('.menu a');
+    const navbar = document.getElementById('navbar');
+    
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            const screenWidth = window.innerWidth;
+            
+            if (screenWidth <= 768) {
+                if(navbar.classList.contains('collapsed')) {
+                    navbar.classList.remove('collapsed');
+                } else {
+                    navbar.classList.add('collapsed');
+                }
+            }
+        });
     });
-});
+}
+
+window.addEventListener('resize', handleMenuClick);
+handleMenuClick();
+
+
+function toggleClassByWidth() {
+    const element = document.getElementById('navbar');
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth >= 768) {
+        element.classList.remove('collapsed');
+    } else {
+        element.classList.add('collapsed');
+    }
+}
+
+window.addEventListener('resize', toggleClassByWidth);
+toggleClassByWidth();
+
+
+// COUNTER
+
+
 function counter() {
     var sectionCounter = document.querySelector('#section-counter');
     var numberElements = sectionCounter.querySelectorAll('.number');
@@ -86,3 +127,27 @@ function contentWayPoint() {
 
 counter();
 contentWayPoint();
+
+
+// ACCORDION
+
+
+document.querySelectorAll('.accordion-title').forEach(title => {
+    title.addEventListener('click', () => {
+      const item = title.parentNode;
+      const isActive = item.classList.contains('active');
+      
+      document.querySelectorAll('.accordion-item').forEach(acc => {
+        acc.classList.remove('active');
+        acc.querySelector('.accordion-content').style.maxHeight = '0';
+        acc.querySelector('.accordion-content').removeAttribute('data-active-classes'); // Remover o atributo data-active-classes
+      });
+  
+      if (!isActive) {
+        item.classList.add('active');
+        const content = item.querySelector('.accordion-content');
+        content.style.maxHeight = content.scrollHeight + 'px';
+        content.setAttribute('data-active-classes', ''); // Adicionar o atributo data-active-classes
+      }
+    });
+});

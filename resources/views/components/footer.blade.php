@@ -49,15 +49,16 @@
             </div>
             <div class="md:pb-8 md:pt-12 bg-neutral-700 p-8 lg:max-w-">
                 <h2 class="text-lg font-bold mb-10">1º CONSULTORIA GRATUITA</h2>
-                <form action="#" class="form-consultation ">
+                <form method="POST" action="{{ route('subscriber') }}" class="form-consultation ">
+                    @csrf
                     <div class="mb-4">
-                        <input type="text" class="w-full m-auto text-sm border-none rounded-md py-3 px-4 bg-neutral-600 focus:outline-none focus:ring-sky-600 placeholder:text-gray-300" placeholder="Seu Nome">
+                        <input type="text" class="w-full m-auto text-sm border-none rounded-md py-3 px-4 bg-neutral-600 focus:outline-none focus:ring-sky-600 placeholder:text-gray-300" name="name" placeholder="Seu Nome">
                     </div>
                     <div class="mb-4">
-                        <input type="text" class="w-full border-none text-sm rounded-md py-2 px-4 bg-neutral-600 focus:outline-none focus:ring-sky-600 placeholder:text-gray-300" placeholder="Seu E-mail">
+                        <input type="text" class="w-full border-none text-sm rounded-md py-2 px-4 bg-neutral-600 focus:outline-none focus:ring-sky-600 placeholder:text-gray-300" name="email" placeholder="Seu E-mail">
                     </div>
                     <div class="mb-4">
-                        <textarea name="" id="" cols="30" rows="3" class="w-full border-none text-sm text-white bg-neutral-600 rounded-md py-2 px-4 focus:outline-none focus:ring-sky-600 placeholder:text-gray-300" placeholder="Mensagem"></textarea>
+                        <textarea cols="30" rows="3" class="w-full border-none text-sm text-white bg-neutral-600 rounded-md py-2 px-4 focus:outline-none focus:ring-sky-600 placeholder:text-gray-300" name="message" placeholder="Mensagem"></textarea>
                     </div>
                     <div>
                         <button type="submit" class="w-full bg-sky-600 text-white py-2 px-4 rounded-md hover:bg-sky-700 focus:outline-none focus:ring-sky-600">Enviar Mensagem</button>
