@@ -17,7 +17,7 @@
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=1" alt="">
+                                <img src="https://i.pravatar.cc/100?img=1" alt="Ícone avatar da Kenzie Edgar">
                             </div>
                             <div class="flex-grow pl-3">
                                 <h6 class="font-bold text-sm uppercase text-gray-600">Kenzie Edgar.</h6>
@@ -30,7 +30,7 @@
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=2" alt="">
+                                <img src="https://i.pravatar.cc/100?img=2" alt="Ícone avatar do Stevie Tifft">
                             </div>
                             <div class="flex-grow pl-3">
                                 <h6 class="font-bold text-sm uppercase text-gray-600">Stevie Tifft.</h6>
@@ -45,7 +45,7 @@
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=3" alt="">
+                                <img src="https://i.pravatar.cc/100?img=3" alt="Ícone avatar do Tommie Ewart">
                             </div>
                             <div class="flex-grow pl-3">
                                 <h6 class="font-bold text-sm uppercase text-gray-600">Tommie Ewart.</h6>
@@ -58,7 +58,7 @@
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=4" alt="">
+                                <img src="https://i.pravatar.cc/100?img=4" alt="Ícone avatar do Charlie Howse">
                             </div>
                             <div class="flex-grow pl-3">
                                 <h6 class="font-bold text-sm uppercase text-gray-600">Charlie Howse.</h6>
@@ -73,7 +73,7 @@
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=5" alt="">
+                                <img src="https://i.pravatar.cc/100?img=5" alt="Ícone avatar da Nevada Herbertson">
                             </div>
                             <div class="flex-grow pl-3">
                                 <h6 class="font-bold text-sm uppercase text-gray-600">Nevada Herbertson.</h6>
@@ -86,7 +86,7 @@
                     <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div class="w-full flex mb-4 items-center">
                             <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
-                                <img src="https://i.pravatar.cc/100?img=6" alt="">
+                                <img src="https://i.pravatar.cc/100?img=6" alt="Ícone avatar do Kris Stanton">
                             </div>
                             <div class="flex-grow pl-3">
                                 <h6 class="font-bold text-sm uppercase text-gray-600">Kris Stanton.</h6>

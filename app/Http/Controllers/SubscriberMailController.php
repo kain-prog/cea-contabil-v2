@@ -15,10 +15,27 @@ class SubscriberMailController extends Controller
         $email = $request->email;
         $message = $request->message;
 
+        if( empty( $name )){
+            return redirect()->route('home')->with( 'err-name', 'O campo "nome" é obrigatório' )->withFragment('form-2')->withInput();
+        }
+
+        if( empty( $email )){
+            return redirect()->route('home')->with( 'err-mail', 'O campo "e-mail" é obrigatório.' )->withFragment('form-2')->withInput();
+        }
+        
+        if( !filter_var( $email, FILTER_VALIDATE_EMAIL )){
+            return redirect()->route('home')->with( 'err-mail', 'Por favor, insira um e-mail válido.' )->withFragment('form-2')->withInput();
+        }
+
+        if( empty( $message )){
+            return redirect()->route('home')->with( 'err-message', 'O campo "mensagem" é obrigatório' )->withFragment('form-2')->withInput();
+        }
+
         $data  = [
             'nome' => $name,
             'email' => $email,
             'mensagem' => $message,
+            'assunto' => "Consultoria Grátis"
         ];
 
         $mail = new Sendmail( $data );
@@ -34,6 +51,7 @@ class SubscriberMailController extends Controller
 
         Mail::to( $email )->send( new NotificationMail( $data2 ) );
 
-        dd('E-mail enviado com sucesso!!');
+        return redirect()->route('home')->with( 'succ-form-2', 'A sua mensagem foi enviada com sucesso!' )->withFragment('form-2')->withInput();
+        
     }
 }

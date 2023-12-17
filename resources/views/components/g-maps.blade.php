@@ -1,3 +1,1 @@
-<div>
-    <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.5810759000356!2d-43.07064402381642!3d-22.817981734705015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999b0ff60d8781%3A0x6fe18027cbe5eadb!2sR.%20Ramos%20Costa%20-%20Porto%20da%20Pedra%2C%20S%C3%A3o%20Gon%C3%A7alo%20-%20RJ%2C%2024436-310!5e0!3m2!1spt-BR!2sbr!4v1702674004614!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

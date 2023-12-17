@@ -1,4 +1,4 @@
-<div id="banner-contact" class="relative">
+<section id="banner-contact" class="relative">
     <div class="m-auto h-full px-4 xl:max-w-6xl lg:max-w-4xl md:max-w-2xl sm:max-w-lg relative z-20">
 
         <div class="h-full flex flex-col justify-end pb-24">
@@ -13,4 +13,4 @@
 
     </div>
 
-</div>
+</section>

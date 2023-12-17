@@ -145,6 +145,8 @@
     z-index: 1;
 }
 
+/* .simple-sub-btn:active */
+
 #faq .image-faqs .image-1{
     background-image: url(/public/assets/images/image-faq-1.jpg);
 }
@@ -265,4 +267,11 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#privacy-bar{
+    background: linear-gradient(40deg, #04020af2, #000000ed) , url(/public/assets/images/logo2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
 }

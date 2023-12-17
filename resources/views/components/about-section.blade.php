@@ -2,7 +2,7 @@
 
     <div class="flex flex-col m-auto px-4 xl:max-w-6xl lg:max-w-4xl md:max-w-2xl columns-1 sm:max-w-lg gap-12 lg:flex-row items-center">
         <div class="h-full z-20">
-            <img style="height: 765px; object-fit: cover;" src="{{ asset('assets/images/about-cea.jpg') }}" alt="">
+            <img style="height: 765px; object-fit: cover;" src="{{ asset('assets/images/about-cea.jpg') }}" alt="Mulher no escritório de cabelo preso sorrindo.">
         </div>
 
         <div class="desc relative pb-12 xl:max-w-md lg:max-w-md lg:pt-11">

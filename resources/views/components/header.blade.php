@@ -1,9 +1,9 @@
 <nav id="#header" class="flex flex-wrap justify-between w-full py-7 md:py-0 md:flex-nowrap m-auto px-4 xl:max-w-6xl lg:max-w-4xl md:max-w-2xl sm:max-w-lg">
-    <div class="flex items-center">
+    <h1 class="flex items-center">
         <a href="{{ route('home') }}">
-            <img style="max-width: 175px" src="assets/images/cea-contabil.png" alt="Logo CeA - Contábil">
+            <img style="max-width: 175px" src="assets/images/cea-contabil.png" alt="Empresa CeA Contábil - especializada em soluções contábeis para empresas de todos os portes">
         </a>
-    </div>
+    </h1>
 
     <div id="handle-collapse" class="flex items-center cursor-pointer md:hidden">
         <button  type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 focus:outline-none focus:ring-2 focus:ring-transparent dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-transparent" >

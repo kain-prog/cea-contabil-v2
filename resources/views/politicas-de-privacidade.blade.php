@@ -10,33 +10,30 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <title>CeA - Contábil | Home </title>
+        <title>CeA - Contábil | Políticas de Privacidade </title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        
         <main>
             <x-pre-header />
             <x-header />
-            <x-carousel-banner />
-            <x-about-section />
-            <x-infos />
-            <x-services-section />
-            <x-cta />
-            <x-faq />
-            <x-testimonials />
+            <x-logo-cea />
+            <x-politicas-pv />
             <x-footer />
             <x-privacy-bar />
             <x-wpp-flutuant/>
+    
+            <x-modal-first-service />
+            <x-modal-second-service />
+            <x-modal-third-service />
+            <x-modal-fourth-service />
+            <x-modal-fifth-service />
+            <x-modal-sixth-service />
         </main>
 
         <script src="{{ asset('assets/js/main.js') }}"></script>
-        <script src="{{ asset('assets/js/counter.js') }}"></script>
-        <script src="{{ asset('assets/js/form1.js') }}"></script>
-        <script src="{{ asset('assets/js/form2.js') }}"></script>
-        <script src="{{ asset('assets/js/accordion.js') }}"></script>
     </body>
 </html>
