@@ -2,13 +2,13 @@
 # Simples - 1º Consultoria Gratuita
 
 <p style="color: #718096"><strong>E-mail</strong>: {{ $data['email'] }}</p>
-<span>
+<p style="padding-bottom: 30px; margin-bottom: 15px;">
     @if ( $data['mensagem'] )
         <p style="color: #718096"><strong>Mensagem</strong>: <br/> {{ $data['mensagem'] }} </p>        
     @endif
-</span>
+</p>
 
-<x-mail::button :url="'http://127.0.0.1:8000/'">
+<x-mail::button :url="'https://ceacontabil.com'">
 Acesse o site clicando aqui
 </x-mail::button>
 

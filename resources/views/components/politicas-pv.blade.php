@@ -2,9 +2,8 @@
 
     <div class="m-auto px-5" style="max-width: 53rem">
         <h2 class="text-center text-xs font-bold text-orange-400">POLÍTICAS DE PRIVACIDADE</h2>
-        <h1 class="mb-8 text-4xl text-center text-gray-700 font-semibold">CeA - Contábil</h1>
-
         
+        <h1 class="mb-8 text-4xl text-center text-gray-700 font-semibold">CeA - Contábil</h1>
 
         <p class="mb-6 text-lg text-gray-600">A CeA Contábil valoriza a sua privacidade e compromete-se a proteger as informações fornecidas por você. Esta política de privacidade descreve como coletamos, usamos e protegemos suas informações quando você utiliza nossos serviços ou interage conosco.</p>
 

@@ -1,7 +1,7 @@
 <nav id="#header" class="flex flex-wrap justify-between w-full py-7 md:py-0 md:flex-nowrap m-auto px-4 xl:max-w-6xl lg:max-w-4xl md:max-w-2xl sm:max-w-lg">
     <h1 class="flex items-center">
         <a href="{{ route('home') }}">
-            <img style="max-width: 175px" src="assets/images/cea-contabil.png" alt="Empresa CeA Contábil - especializada em soluções contábeis para empresas de todos os portes">
+            <img style="max-width: 175px" src="{{ asset('assets/images/cea-contabil.png') }}" alt="Empresa CeA Contábil - especializada em soluções contábeis para empresas de todos os portes">
         </a>
     </h1>
 

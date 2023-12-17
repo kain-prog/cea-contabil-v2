@@ -1,4 +1,4 @@
-<section id="feedbacks" class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
+{{-- <section id="feedbacks" class="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
     <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
         <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
@@ -100,4 +100,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}

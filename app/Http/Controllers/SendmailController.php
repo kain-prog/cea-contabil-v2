@@ -48,7 +48,7 @@ class SendmailController extends Controller
         $mail = new Sendmail($data);
         $mail->subject($subject);
 
-        Mail::to( 'ceacontabill@gmail.com' )->send( $mail );
+        Mail::to( 'contato@ceacontabil.com' )->send( $mail );
 
         $data2 = [
             'nome' => $name,

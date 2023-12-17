@@ -27,7 +27,7 @@
                             <span class="fa-solid fa-paper-plane rounded-full p-4 border-slate-300 border flex text-center text-white" style="width: 50px; height: 50px;"></span>
                         </div>
                         <div class="pl-3 ">
-                            <p><span class="text-white font-semibold">E-mail:</span> <a class="text-slate-300" href="mailto:info@ceacontabill@gmail.com">ceacontabill@gmail.com</a></p>
+                            <p><span class="text-white font-semibold">E-mail:</span> <a class="text-slate-300" href="mailto:info@contato@ceacontabil.com">contato@ceacontabil.com</a></p>
                         </div>
                     </div>
                     <div class="relative z-20 mb-12 flex w-full items-center">
@@ -35,7 +35,7 @@
                             <span class="fa-solid fa-earth-americas rounded-full p-4 border-slate-300 border flex text-center text-white" style="width: 50px; height: 50px;"></span>
                         </div>
                         <div class="pl-3">
-                            <p><span class="text-white font-semibold">Website:</span> <a class="text-slate-300" href="{{ route('home') }}">ceacontabilxxxx</a></p>
+                            <p><span class="text-white font-semibold">Website:</span> <a class="text-slate-300" href="{{ route('home') }}">https://ceacontabil.com</a></p>
                         </div>
                     </div>
                     <div class="relative z-20 flex flex-col w-full justify-center items-center">

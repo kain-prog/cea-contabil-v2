@@ -4,7 +4,7 @@
     # Caro(a) {{ $data['nome'] }},
 @endif
 
-<span>
+<p>
     @if ( !empty($data['original']))
         <p style="color: #718096">Gostaríamos de agradecer imensamente por entrar em contato conosco. Sua mensagem é muito importante para nós e faremos o possível para responder o mais rápido possível.</p>
         <p style="color: #718096">Estamos dedicados a fornecer o melhor serviço e suporte aos nossos clientes, e sua consulta nos ajuda a melhorar continuamente.</p>
@@ -14,9 +14,9 @@
         <p style="color: #718096">Sua solicitação foi recebida com sucesso e estamos ansiosos para ajudar. Nossa equipe especializada está revisando suas necessidades para oferecer a melhor consultoria possível.</p>
         <p style="color: #718096">Entraremos em contato em breve para agendar uma conversa inicial e discutir detalhes para garantir que possamos atender às suas necessidades da melhor forma.</p>
     @endif
-</span>
+</p>
 
-<x-mail::button :url="'http://127.0.0.1:8000/'">
+<x-mail::button :url="'https://ceacontabil.com'">
 Acesse o site clicando aqui
 </x-mail::button>
 

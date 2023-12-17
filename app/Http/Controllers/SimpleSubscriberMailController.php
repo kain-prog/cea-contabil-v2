@@ -32,7 +32,7 @@ class SimpleSubscriberMailController extends Controller
         $subjectSubscriber = "Consultoria Grátis";
         $mail->subject( $subjectSubscriber );
 
-        Mail::to( 'ceacontabill@gmail.com' )->send( $mail );
+        Mail::to( 'contato@ceacontabil.com' )->send( $mail );
 
         $data2 = [
             'email' => $email,

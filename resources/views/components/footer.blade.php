@@ -43,7 +43,7 @@
                     <p class="text-sm inline text-gray-400">Copyright &copy; <script>document.write(new Date().getFullYear());</script> - Todos os direitos reservados | Feito por: <a class="text-sky-600" href="https://digitallabor.com.br">Digital Labor</a> </p>
                     <div class="flex items-center mt-4">
                         <a class="w-min flex" href="https://digitallabor.com.br" title="Digital Labor" target="_blank"><img src="assets/images/digitallabor-logo.png" style="max-width: 50px; height: max;" alt="Logomarca da digitallabor."></a>
-                        <a class="w-min flex ml-3" href="#" title="CeA - Contábil" target="_blank"><img src="assets/images/logo-3.png" style="max-width: 40px; height: 40px" alt="Logomarca CeA Contábil com fundo branco."></a>
+                        <a class="w-min flex ml-3" href="{{ route('home') }}" title="CeA - Contábil" target="_blank"><img src="assets/images/logo-3.png" style="max-width: 40px; height: 40px" alt="Logomarca CeA Contábil com fundo branco."></a>
                     </div>
                 </div>
             </div>
