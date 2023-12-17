@@ -1,0 +1,79 @@
+{
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-5656d596.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-3a8924cd.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-5d02dc9b.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-2bccecf0.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-fbbf06d7.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-9fc85f3a.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "public/assets/images/arrow-chevron.png": {
+    "file": "assets/arrow-chevron-435a15d8.png",
+    "src": "public/assets/images/arrow-chevron.png"
+  },
+  "public/assets/images/bg-free.png": {
+    "file": "assets/bg-free-d4f0fb14.png",
+    "src": "public/assets/images/bg-free.png"
+  },
+  "public/assets/images/decoration.png": {
+    "file": "assets/decoration-8266c83d.png",
+    "src": "public/assets/images/decoration.png"
+  },
+  "public/assets/images/escritorio-banner1.jpg": {
+    "file": "assets/escritorio-banner1-5ab300ae.jpg",
+    "src": "public/assets/images/escritorio-banner1.jpg"
+  },
+  "public/assets/images/image-faq-1.jpg": {
+    "file": "assets/image-faq-1-5600ab3c.jpg",
+    "src": "public/assets/images/image-faq-1.jpg"
+  },
+  "public/assets/images/image-faq-2.jpg": {
+    "file": "assets/image-faq-2-ad9b1925.jpg",
+    "src": "public/assets/images/image-faq-2.jpg"
+  },
+  "public/assets/images/logo2.png": {
+    "file": "assets/logo2-5f1e4c59.png",
+    "src": "public/assets/images/logo2.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-d9a90a30.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-71c41fb9.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/fa-brands-400-3a8924cd.woff2",
+      "assets/fa-brands-400-5656d596.ttf",
+      "assets/fa-regular-400-2bccecf0.woff2",
+      "assets/fa-regular-400-5d02dc9b.ttf",
+      "assets/fa-solid-900-9fc85f3a.woff2",
+      "assets/fa-solid-900-fbbf06d7.ttf"
+    ],
+    "css": [
+      "assets/app-71c41fb9.css"
+    ],
+    "file": "assets/app-35470bcf.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
